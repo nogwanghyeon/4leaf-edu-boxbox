@@ -1,0 +1,75 @@
+.app {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col1 {
+    width: 100px ;
+    height: 100%;
+}
+
+.app .app__col2 {
+    width: 100%;
+    height: 100%;
+
+} 
+
+
+.app .app__col1 .app__col1__sec1 {
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+}
+
+.app .app__col1 .app__col1__sec2 {
+    width: 100%;
+    height: 30%;
+    background-color: greenyellow;
+}
+
+.app .app__col1 .app__col1__sec3 {
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+}
+
+.app .app__col2 .app__col2__sec1 {
+    width: 100%;
+    height: 50%;
+
+   
+    background: red;
+}
+
+.app .app__col2 .app__col2__sec2 {
+    width: 100%;
+    height: 50%;
+
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col2 .app__col2__sec2__sec1 {
+    width: 50%;
+    height: 100%;
+
+    background: orange;
+  
+}
+
+.app .app__col2 .app__col2__sec2__sec2 {
+    width: 50%;
+    height: 100%;
+
+    background: orangered;
+    
+}
+
+
+
+
+
